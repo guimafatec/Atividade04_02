@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
             tvRes.setText("Valor Incorreto");
             return;
         }
-        int unidade = valor / 10;
+        int unidade = valor % 10;
         valor /= 10;
-        int dezena = valor / 10;
+        int dezena = valor % 10;
         valor /= 10;
-        int centena = valor / 10;
+        int centena = valor % 10;
 
         String res;
         res = "CENTENA = " + centena + "\n";
