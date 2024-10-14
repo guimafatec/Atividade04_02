@@ -12,7 +12,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
+    /*
+     *@author:Gustavo Guimarães de Oliveira
+     */
     private EditText etValor;
     private Button btnCalc;
     private TextView tvRes;
